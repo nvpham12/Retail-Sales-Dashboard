@@ -15,7 +15,7 @@ This project leverages Google BigQuery to prepare data before loading it into Ta
 - Cleaned & transformed Online Retail II dataset in BigQuery.
 - Consolidated multiple queries into a single end-to-end query pipeline, reducing overhead and improving overall query performance.
 - Optimized the query pipeline through SQL best practices, clustering, and partitioning to lower query costs.
-- Benchmarked all queries and pipelines to performance.
+- Benchmarked all queries and pipelines to measure performance, following guidelines to ensure accurate and unbiased metrics.
 - Extracted data from the query and imported it into Tableau.
 - Designed an interactive Tableau dashboard with filters for date and location, using colorblind-friendly palettes.
 - Published the dashboard to Tableau Public.
