@@ -1,30 +1,30 @@
 # Project Background
 This project leverages Google BigQuery to prepare data before loading it into Tableau to build a dashboard. Queries were later consolidated into a single query, then optimized to improve performance and reduce costs. 
 
-## Links
-- [Tableau Dashboard](https://public.tableau.com/views/RetailSalesDashboard_17545186499380/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- [Full Technical Report](https://github.com/nvpham12/Online-Retail-II-Sales-Dashboard/blob/main/Technical%20Report%20Online%20Retail%20Dashboard.md)
-
 ## Tools & Technologies
 - **Microsoft Excel**: File conversion, creating date scaffold for dashboarding
 - **Google BigQuery**: SQL querying, data cleaning, and data extraction
 - **Tableau**: Interactive dashboarding
 
-## Data
-- The dataset contains information on sales occuring between 2009 and 2011 from a UK based company that typically sells gift-ware to wholesalers.
-- The dataset includes invoices, item stock codes, item descriptions, quantities sold, price, customer id, invoice timestamps, and customer country between December 2009 to December 2011.
-- The data contains 778,863 rows and 8 columns.
+## Links
+- [SQL Query files](https://github.com/nvpham12/Online-Retail-II-Sales-Dashboard/tree/main/queries)
+- [Tableau Dashboard](https://public.tableau.com/views/RetailSalesDashboard_17545186499380/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Technical Report](https://github.com/nvpham12/Online-Retail-II-Sales-Dashboard/blob/main/Technical%20Report%20Online%20Retail%20Dashboard.md)
 
 ## Approach
 - Cleaned & transformed Online Retail II dataset in BigQuery.
-- Consolidated multi-step queries into an optimized end-to-end query pipeline and reducing query costs.
+- Consolidated multiple queries into a single end-to-end query pipeline, reducing overhead and improving overall query performance.
+- Optimized the query pipeline through SQL best practices, clustering, and partitioning to lower query costs.
+- Benchmarked all queries and pipelines to performance.
 - Extracted data from the query and imported it into Tableau.
 - Designed an interactive Tableau dashboard with filters for date and location, using colorblind-friendly palettes.
 
-# Dashboard Preview
-<img width="1799" height="1199" alt="Dashboard" src="https://github.com/user-attachments/assets/ec6c1337-bc7a-45ec-9386-22bd1f3a8e70" />
+## Data
+- The dataset contains information on sales occuring between 2009 and 2011 from a UK based company that typically sells gift-ware to wholesalers.
+- The dataset includes invoices, item stock codes, item descriptions, quantities sold, prices, customer ids, invoice timestamps, and customer countries between December 2009 to December 2011.
+- The data contains 778,863 rows and 8 columns.
 
-[Dashboard link](https://public.tableau.com/views/RetailSalesDashboard_17545186499380/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+---
 
 # Executive Summary
 ## Insights
@@ -34,7 +34,7 @@ This project leverages Google BigQuery to prepare data before loading it into Ta
 - Sales in the UK account for 80% of total sales and the number of foreign customers account for around 10% of total customers.
 - The business had 14 fewer customers in 2011 than in 2010. Sales also decreased by 220,000 British Pounds and the number of items purchased decreased by around 500,000 in 2011 from 2010.
 - Average unit price from foreign orders is 33% higher than domestic orders.
-- The sales per item ratio (sales / number of items sold) is 1.67 for UK based customers and 1.48 across all foreign customers.
+- The sales per item sold ratio  is 1.67 for UK based customers and 1.48 across all foreign customers.
 
 ## Recommendations
 - Check the number of wholesalers among 2010 customers and compare that the number of customers from 2011. If the store has lost customers, investigate why they churned, if they moved their purchases to a competitor, and what attracts them to that competitor.
@@ -45,6 +45,8 @@ This project leverages Google BigQuery to prepare data before loading it into Ta
 - Query the data to check the sales and average number of items per order inside and outside of the UK for comparison.
 - Verify if the average unit price from foreign orders are accompanied with higher sales. The higher average prices could potentially be driven due to additional costs associated with exports, which are passed on to customers.
 - Check sales per item for each foreign country, checking for any that surpasses the ratio for domestic customers of 1.67. The store is recommended to expand business in those countries.
+
+---
 
 # Data Source and License
 - Dataset: Online Retail II  
