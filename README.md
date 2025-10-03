@@ -18,6 +18,7 @@ This project leverages Google BigQuery to prepare data before loading it into Ta
 - Benchmarked all queries and pipelines to performance.
 - Extracted data from the query and imported it into Tableau.
 - Designed an interactive Tableau dashboard with filters for date and location, using colorblind-friendly palettes.
+- Published the dashboard to Tableau Public.
 
 ## Data
 - The dataset contains information on sales occuring between 2009 and 2011 from a UK based company that typically sells gift-ware to wholesalers.
