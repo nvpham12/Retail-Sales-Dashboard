@@ -9,7 +9,7 @@ This project leverages Google BigQuery to prepare data before loading it into Ta
 ## Links
 - [SQL Query files](https://github.com/nvpham12/Online-Retail-II-Sales-Dashboard/tree/main/queries)
 - [Tableau Dashboard](https://public.tableau.com/views/RetailSalesDashboard_17545186499380/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- [Technical Report](https://github.com/nvpham12/Online-Retail-II-Sales-Dashboard/blob/main/Technical%20Report%20Online%20Retail%20Dashboard.md)
+- [Full Technical and Analytics Report](https://github.com/nvpham12/Online-Retail-II-Sales-Dashboard/blob/main/Technical%20Report%20Online%20Retail%20Dashboard.md)
 
 ## Approach
 - Cleaned & transformed Online Retail II dataset in BigQuery.
@@ -53,4 +53,3 @@ This project leverages Google BigQuery to prepare data before loading it into Ta
 - Dataset: Online Retail II  
 - Creator: Daqing Chen
 - License: Creative Commons Attribution 4.0 International (CC BY 4.0) license
-- Reference: Chen, D. (2012). Online Retail II [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5CG6D.
