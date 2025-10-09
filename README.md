@@ -18,7 +18,7 @@ This project leverages Google BigQuery to prepare data before loading it into Ta
 - Optimized the pipeline using SQL best practices, clustering, and partitioning to reduce costs.
 - Benchmarked queries to measure performance, following guidelines to ensure consistent metrics.
 - Extracted a sample of the processed data from BigQuery and imported it into Tableau for visualization.
-- Designed an interactive dashboard with date and location filters using colorblind-friendly palettes.
+- Designed an interactive dashboard with date and location filters using calculated fields and colorblind-friendly palettes.
 - Published the dashboard to Tableau Public.
 
 ## Data
