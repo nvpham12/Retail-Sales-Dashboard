@@ -16,7 +16,7 @@ This report combines technical and analytics perspectives, showcasing the pipeli
 - Optimized the pipeline using SQL best practices, clustering, and partitioning to reduce costs.
 - Benchmarked queries to measure performance, following guidelines to ensure consistent metrics.
 - Extracted a sample of the processed data from BigQuery and imported it into Tableau for visualization.
-- Designed an interactive dashboard with date and location filters using colorblind-friendly palettes.
+- Designed an interactive dashboard with date and location filters using calculated fields and colorblind-friendly palettes.
 - Published the dashboard to Tableau Public.
 
 ## Data
@@ -138,3 +138,4 @@ Creator: Daqing Chen
 License: Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 Reference: Chen, D. (2012). Online Retail II [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5CG6D
+
