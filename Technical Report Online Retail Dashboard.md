@@ -8,7 +8,7 @@ This report combines technical and analytics perspectives, showcasing the pipeli
 
 ## Links
 - [SQL Queries](https://github.com/nvpham12/Online-Retail-II-Sales-Dashboard/tree/main/queries)
-- [Tableau Dashboard](https://public.tableau.com/views/RetailSalesDashboard_17545186499380/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Tableau Dashboard](https://public.tableau.com/views/RetailSalesDashboard_17604811253120/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Approach
 - Cleaned and transformed the Online Retail II dataset in BigQuery.
@@ -136,5 +136,6 @@ Creator: Daqing Chen
 License: Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 Reference: Chen, D. (2012). Online Retail II [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5CG6D
+
 
 
