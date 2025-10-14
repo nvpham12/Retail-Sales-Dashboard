@@ -28,6 +28,11 @@ This project leverages Google BigQuery to prepare data before loading it into Ta
 
 ---
 
+# Dashboard Preview
+<img width="1799" height="1199" alt="Dashboard(1)" src="https://github.com/user-attachments/assets/9d2c4f27-d11a-4505-a2a6-6e4c87b0c722" />
+
+---
+
 # Executive Summary
 ## Insights
 - Regency Cakestand 3 Tier and White Hanging Heat T-Light Holder are top-selling items, nearly double the next best.
@@ -36,6 +41,7 @@ This project leverages Google BigQuery to prepare data before loading it into Ta
 - 2011 had 14 fewer customers than 2010; total sales dropped £220,000, items sold decreased by ~500,000.
 - Foreign orders have 33% higher average unit price than domestic.
 - Sales per item: UK 1.67, foreign 1.48.
+- March and September are the retail store's best months
 
 ## Recommendations
 - Investigate lost customers and competitors attracting 2011 buyers.
