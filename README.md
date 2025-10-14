@@ -9,7 +9,7 @@ This project leverages Google BigQuery to prepare data before loading it into Ta
 
 ## Links
 - [SQL Queries](https://github.com/nvpham12/Online-Retail-II-Sales-Dashboard/tree/main/queries)
-- [Tableau Dashboard](https://public.tableau.com/views/RetailSalesDashboard_17545186499380/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Tableau Dashboard](https://public.tableau.com/views/RetailSalesDashboard_17604811253120/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 - [Technical and Analytics Report](https://github.com/nvpham12/Online-Retail-II-Sales-Dashboard/blob/main/Technical%20Report%20Online%20Retail%20Dashboard.md)
 
 ## Approach
