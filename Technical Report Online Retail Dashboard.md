@@ -103,9 +103,7 @@ This report combines technical and analytics perspectives, showcasing the pipeli
 ---
 
 # Tableau Dashboard Preview
-<img width="1799" height="1199" alt="Dashboard" src="https://github.com/user-attachments/assets/ec6c1337-bc7a-45ec-9386-22bd1f3a8e70" />
-
-> Dashboard visualizes a sample of the processed sales data extracted from the BigQuery.
+<img width="1799" height="1199" alt="Dashboard(1)" src="https://github.com/user-attachments/assets/57ba85b5-9b27-4fb6-b67d-80ef00e50a5d" />
 
 ---
 
@@ -138,4 +136,5 @@ Creator: Daqing Chen
 License: Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 Reference: Chen, D. (2012). Online Retail II [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5CG6D
+
 
