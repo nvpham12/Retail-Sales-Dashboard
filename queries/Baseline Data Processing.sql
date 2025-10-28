@@ -1,21 +1,23 @@
 /*
 This query:
-  - Combines data from two Excel sheets (saved as CSV files and loaded into BigQuery as separate tables) using UNION DISTINCT
-  - Defines the result as a Common Table Expression (CTE) for further processing
-  - Creates an InvoiceDate_UTC column
-  - Removes UTC suffix from all invoice dates and renames column to InvoiceTimeStamp_UTC
-  - Converts Price into a numerical Unit_Price
-  - Calculates total Sales per row (Unit_Price × Quantity)
-  - Removes any duplicates using SELECT DISTINCT
-  - Removes rows with non-positive Quantities, nulls, invalid Countries, and canceled orders (where Invoice starts with 'C')
-  - Creates a new table that contains the resulting dataset
-  - Processes 92.97 MB of data
+  - Drops the existing table for benchmarking and because a new table needs to be created for partitioning and clustering in BigQuery.
+  - Combines data from two Excel sheets (saved as CSV files and loaded into BigQuery as separate tables) using UNION ALL.
+  - Defines the result as a Common Table Expression (CTE) for further processing.
+  - Removes currency and converts Price into a numerical column, UnitPrice.
+  - Calculates total Sales per row (Unit_Price × Quantity).
+  - Removes duplicates using SELECT DISTINCT.
+  - Creates an InvoiceDate_UTC column.
+  - Removes UTC suffix from all invoice dates and renames column to InvoiceTimeStamp_UTC.
+  - Removes rows with non-positive Quantities, nulls, invalid Countries, and canceled orders (where Invoice starts with 'C').
+  - Creates a new table that contains the resulting dataset.
+  - Updates instances of 'Korea' in the Country column to 'South Korea' per the assumption that orders in 'Korea' are not from 'North Korea'.
+  - Processes 92.97 MB of data.
 */
 
+DROP TABLE IF EXISTS `online_retail_2_dataset.cleaned_retail_2`;
 CREATE OR REPLACE TABLE
   `online_retail_2_dataset.cleaned_retail_2`
-CLUSTER BY
-  Country AS
+AS
 WITH
   retail_union AS (
   SELECT
@@ -53,7 +55,6 @@ WHERE
   AND Invoice NOT LIKE "C%"
   AND Country NOT IN ('Unspecified', 'European Community', 'West Indies');
 
--- This update changes instances of 'Korea' in the Country column to 'South Korea' per the assumption that orders in 'Korea' are not from 'North Korea'
 UPDATE 
   `online_retail_2_dataset.cleaned_retail_2`
 SET Country = 'South Korea'
