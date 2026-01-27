@@ -5,10 +5,10 @@ This project leverages Google BigQuery to prepare data before loading it into Ta
 Provide stakeholders with an interactive view of sales performance to monitor trends, identify revenue drivers, and support inventory and marketing planning.
 
 ## Primary Use Cases
-- Monitor monthly and seasonal sales performance
-- Identify top-performing products and geographies
-- Compare domestic vs international sales behavior
-- Support inventory and promotion planning
+- Monitor monthly and seasonal sales performance.
+- Identify top-performing products and geographies.
+- Compare domestic vs international sales behavior.
+- Support inventory and promotion planning.
 
 --- 
 
