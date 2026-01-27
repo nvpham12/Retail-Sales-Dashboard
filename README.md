@@ -29,7 +29,7 @@ Provide stakeholders with an interactive view of sales performance to monitor tr
 - Total revenue and revenue growth
 - Average order value
 - Sales by product and geography
-- Repeat customer rate (if available)
+- Repeat customer rate
 
 ## Next Steps
 - Explore sales trends by country and product category.
