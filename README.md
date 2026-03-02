@@ -14,9 +14,8 @@ Provide stakeholders with an interactive view of sales performance to monitor tr
 
 # Executive Summary
 ## Insights
-- Two products account for a disproportionate share of revenue, with sales nearly double the next highest item.
-- International customers represent a smaller share of total customers but generate 33% higher average unit prices.
-- Sales declined year-over-year in 2011, driven by both fewer customers and lower total items sold.
+- International customers (customers outside of the United Kingdom) represent a smaller share of total customers but generate 33% higher average unit prices.
+- Sales have slightly declined year-over-year in 2011, driven by both fewer customers and lower total items sold.
 - March and September consistently show peak sales activity.
 
 ## Recommendations
