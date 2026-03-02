@@ -14,15 +14,15 @@ Provide stakeholders with an interactive view of sales performance to monitor tr
 
 # Executive Summary
 ## Insights
-- Two products account for a disproportionate share of revenue, with sales nearly double the next highest item.
 - International customers represent a smaller share of total customers but generate 33% higher average unit prices.
 - Sales declined year-over-year in 2011, driven by both fewer customers and lower total items sold.
-- March and September consistently show peak sales activity.
+- March (32-33%) and September (35-48%) consistently show peak sales activity.
 
 ## Recommendations
 - Analyze customer churn between 2010 and 2011 by product and geography to identify whether revenue loss was driven by customer attrition or reduced order size.
 - Expand international sales for top-performing products, particularly those with strong foreign demand and higher unit prices, while monitoring margin impact.
 - Use seasonal peaks (March and September) to plan targeted promotions and inventory allocation for top-selling products.
+- Investigate sales from September 2011 to identify any non-seasonal sales drivers.
 - Track repeat purchase behavior for top products, identifying whether demand is driven by repeat buyers or one-time purchases.
 
 ## Proposed Success Metrics
